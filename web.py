@@ -9,8 +9,8 @@ OUT = ROOT + '/out/site'
 VERSAO = '1.0-rascunho'
 DATA = '13/11/2026'
 BASE_URL = 'https://peamlabomar.github.io/manual/'
-ASSETS = '/home/claude/social/assets/'
-TRILHA = '/home/claude/trilha/'   # ícones e fontes já otimizados do guia da trilha
+ASSETS = ROOT + '/assets/'
+TRILHA = ROOT + '/base/'   # ícones e fontes
 os.chdir(ROOT)
 
 # ---------------------------------------------------------------- textos

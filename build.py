@@ -1,6 +1,6 @@
 import asyncio, os, re
 from playwright.async_api import async_playwright
-AS='file:///home/claude/social/assets/'; IM='file://'+os.path.abspath('img')+'/'
+AS='file://'+os.path.abspath('assets')+'/'; IM='file://'+os.path.abspath('img')+'/'
 BLUE='#0c3c86'; NAVY='#082758'; SKY='#53a3d5'; YEL='#fbce5d'; CORAL='#f26f71'; GREEN='#53db76'; INK='#1b2a41'; SOFT='#eef4fb'
 LV={'b':('1','Básico',GREEN,'Para crianças menores de 10 anos e para quem teve pouco contato com o mar.'),
     'm':('2','Moderado',YEL,'Para quem quer saber como o animal funciona e qual é o seu papel no ambiente.'),
